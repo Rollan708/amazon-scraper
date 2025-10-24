@@ -1,16 +1,15 @@
-# Amazon Product Data Scraper | Python + Playwright
+# Amazon Product Data Scraper (demo)
 
-Extract product details (titles, prices, ratings) from Amazon pages.
+Минимальный демонстрационный скрипт на Playwright.
 
-Features
+Запуск:
 
-- Uses Playwright for dynamic rendering
-- Random user-agents and delay
-- CSV / Google Sheets output
+1. python -m pip install -r requirements.txt
+2. playwright install
+3. python amazon_scraper.py
 
-Run
+Результат: файл amazon_demo.csv
 
-```bash
-pip install -r requirements.txt
-python amazon_scraper.py
-```
+Example output / Demo files:
+
+- amazon_demo.csv
